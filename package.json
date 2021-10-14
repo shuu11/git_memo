@@ -10,6 +10,9 @@
   "scripts": {
     "acp":"npm run add && npm run commit && npm run push",
 
+
+    "command memo":"#########################################################",
+
     "#1":
     "git command                                    exp                                                           memo",
     "init":"git init",                              "#1-exp":"git init",                                          "#1-memo":"リポジトリを新規作成",
@@ -17,7 +20,7 @@
     "upstream":"git push --set-upstream origin",    "#1-exp":"git push --set-upstream origin [branch name]",      "#1-memo":"プッシュ先を指定",
     "clone":"git clone",                            "#1-exp":"git clone [url]",                                   "#1-memo":"リポジトリをコピー",
     "gc":"git gc",                                  "#1-exp":"git gc",                                            "#1-memo":"リポジトリを最適化",
-    "pull":"git pull",                              "#1-exp":"git pull",                                          "#1-memo":"リモートリポジトリの変更点をローカルリポジトリにマージ",
+    "pull":"git pull origin",                       "#1-exp":"git pull origin [branch name]",                     "#1-memo":"リモートリポジトリの変更点をローカルリポジトリにマージ",
     "push":"git push origin",                       "#1-exp":"git push origin [branch name]",                     "#1-memo":"ローカルリポジトリの変更点をリモートリポジトリにマージ",
     "add":"git add .",                              "#1-exp":"git add .",                                         "#1-memo":"コミット対象のファイルを登録",
     "commit":"git commit",                          "#1-exp":"git commit [message]",                              "#1-memo":"変更されたファイルをコミット",
