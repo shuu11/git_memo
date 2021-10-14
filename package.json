@@ -6,9 +6,14 @@
   "config": {
     "main":"main"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuu11/git_memo.git",
+    "branch":"main"
+  },
 
   "scripts": {
-    "acp":"npm run add && npm run commit && npm run push",
+    "acp":"npm run add && git commit -m git && npm run push",
 
 
     "command memo":"#########################################################",
