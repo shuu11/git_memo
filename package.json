@@ -13,8 +13,7 @@
   },
 
   "scripts": {
-    "acp":"npm run add && git commit -m git && npm run push",
-
+    "acp":"npm run add && npm run commit && npm run push",
 
     "command memo":"#########################################################",
 
