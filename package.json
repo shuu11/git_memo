@@ -8,8 +8,7 @@
   },
 
   "scripts": {
-    "acp":"npm run add & npm run commit & npm run push $npm_package_config_main",
-
+    "acp":"npm run add && npm run commit && npm run push",
 
     "#1":
     "git command                                    exp                                                           memo",
