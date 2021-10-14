@@ -31,7 +31,7 @@
     "reset":"git reset",                            "#1-exp":"git reset",                                         "#1-memo":"直前のコミットを取り消し",
     "revert":"git revert",                          "#1-exp":"git revert",                                        "#1-memo":"特定のコミットを取り消し",
     "tag":"git tag",                                "#1-exp":"git tag",                                           "#1-memo":"コミットにタグをつける",
-    "log":"git log",                                "#1-exp":"git log",                                           "#1-memo":"コミット履歴を表示",
+    "log":"git log --oneline",                      "#1-exp":"git log --oneline",                                 "#1-memo":"コミット履歴を表示",
     "status":"git status",                          "#1-exp":"git status",                                        "#1-memo":"作業ツリー内の差分ファイルを表示",
     "mv":"git mv",                                  "#1-exp":"git mv",                                            "#1-memo":"ファイルを移動/ファイル名を変更",
     "stash":"git stash",                            "#1-exp":"git stash",                                         "#1-memo":"作業ツリーの状態を一時的に保存",
