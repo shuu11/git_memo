@@ -13,7 +13,7 @@
   },
 
   "scripts": {
-    "start":"run-s add commit push",
+    "start":"npm-run-all -s add commit push",
 
     "command memo":"#########################################################",
 
