@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shuu11/git_memo.git",
+    "url": "git@github.com:shuu11/git_memo.git",
     "branch":"main"
   },
 
