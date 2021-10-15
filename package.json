@@ -18,7 +18,7 @@
     "command memo":"#########################################################",
 
     "#1":
-    "git command                                    exp                                                           memo",
+    "command                                        exp                                                           memo",
     "init":"git init",                              "#1-exp":"git init",                                          "#1-memo":"リポジトリを新規作成",
     "remote":"git remote add origin",               "#1-exp":"git remote add origin [url]",                       "#1-memo":"リモートリポジトリの追加",
     "upstream":"git push --set-upstream origin",    "#1-exp":"git push --set-upstream origin [branch name]",      "#1-memo":"プッシュ先を指定",
