@@ -5,7 +5,7 @@
   "main": "index.js",
   "config": {
     "main":"main",
-    "url": "https://github.com/shuu11/tryyy.git"
+    "url": "https://github.com/shuu11/git_memo.git"
   },
   "scripts": {
     "setup":"npm-run-all -s setup:*",
