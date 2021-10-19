@@ -32,10 +32,11 @@
     "push":"git push origin",                       "#exp":"git push origin [branch name]",                     "memo":"ローカルリポジトリの変更点をリモートリポジトリにマージ",
     "add":"git add .",                              "#exp":"git add .",                                         "memo":"コミット対象のファイルを登録",
     "commit":"git commit",                          "#exp":"git commit [message]",                              "memo":"変更されたファイルをコミット",
-    "reset":"git reset",                            "#exp":"git reset",                                         "memo":"直前のコミットを取り消し",
+    "reset":"git reset --soft HEAD^",               "#exp":"git reset --soft HEAD^",                            "memo":"直前のコミットを取り消し",
     "revert":"git revert",                          "#exp":"git revert",                                        "memo":"特定のコミットを取り消し",
     "tag":"git tag",                                "#exp":"git tag",                                           "memo":"コミットにタグをつける",
     "log":"git log --oneline",                      "#exp":"git log --oneline",                                 "memo":"コミット履歴を表示",
+
     "status":"git status",                          "#exp":"git status",                                        "memo":"作業ツリー内の差分ファイルを表示",
     "mv":"git mv",                                  "#exp":"git mv",                                            "memo":"ファイルを移動/ファイル名を変更",
     "stash":"git stash",                            "#exp":"git stash",                                         "memo":"作業ツリーの状態を一時的に保存",
