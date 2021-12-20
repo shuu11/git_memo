@@ -25,6 +25,7 @@
     "#command-memo":
     "command                                        exp                                                           memo",
     "init":"git init",                              "#exp":"git init",                                          "memo":"リポジトリを新規作成",
+    "rm":"git rm --cached -r",                      "#exp":"git rm --cached -r [file name]",                    "memo":"ローカルリポジトリからファイル削除",
     "remote":"git remote add origin",               "#exp":"git remote add origin [url]",                       "memo":"リモートリポジトリの追加",
     "clone":"git clone",                            "#exp":"git clone [url]",                                   "memo":"リポジトリをコピー",
     "gc":"git gc",                                  "#exp":"git gc",                                            "memo":"リポジトリを最適化",
